@@ -9,8 +9,8 @@ url:              http://maperial.github.io
 
 # Owner/author information
 owner:
-  # name:           Your Name
-  # avatar:         avatar.jpg
+  name:           Maperial
+  avatar:         maperial.logo.png
   # bio:            "Your bio goes here. It shouldn't be super long but a good two sentences or two should suffice."
   # email:          you@email.com
   # Social networking links used in footer. Update and remove as you like.
@@ -24,7 +24,7 @@ owner:
   tumblr:
   # For Google Authorship https://plus.google.com/authorship
   # google plus id, include the '+', eg +mmistakes
-  google_plus:    +yourid
+  google_plus:    +maperial
 
 # Background image to be tiled on all pages
 background:
