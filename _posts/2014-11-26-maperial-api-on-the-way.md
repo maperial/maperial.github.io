@@ -1,6 +1,9 @@
 ---
 layout: page
 title: Maperial API
+tags:
+- maperial
+- api
 ---
 
 # Almost ready !
