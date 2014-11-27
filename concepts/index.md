@@ -160,6 +160,7 @@ and draw unique maps.
 - view.addSatellite()
 
 #### Maperial layers
+
 ###### Shade
 - view.addShade()
 
@@ -183,6 +184,7 @@ Before to add data layers, you need to create your [Data](#data) first.
 
 Then you can attach it to any [MapView](#mapviews) by adding a layer
 depending on the data type :
+
 - view.addDynamicalLayer(data, options);
 - view.addHeamapLayer(data, options);
 
@@ -193,6 +195,7 @@ depending on the data type :
 ## Fusion
 Use custom settings to fuse 2 layers
 @todo settings panel + doc
+
 - AlphaBlend (param float [0,1])
 - AlphaClip  (param float [0,1])
 - XBlend
@@ -278,6 +281,6 @@ maperial.addShadeControls({
 
 #### Theme
 Most of the tools require a default theme, provided by this css :
-```
+{% highlight html %}
 <link href="http://static.maperial.com/css/maperial.css" rel="stylesheet" type="text/css" />
-```
+{% endhighlight %}
