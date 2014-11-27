@@ -1,6 +1,8 @@
 ---
 layout: page
 title: About Maperial
+image:
+  feature: maperial-abstract-1.jpg
 ---
 
 # Maperial : a new way to create maps
