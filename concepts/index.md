@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Maperial
+title: Concepts
 image:
   feature: maperial-abstract-1.jpg
 ---
