@@ -1,5 +1,5 @@
 ---
-layout: post-index
+layout: page
 title: Getting Started
 image:
   feature: maperial-abstract-1.jpg
