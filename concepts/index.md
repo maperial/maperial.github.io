@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Maperial's concepts
+title: Maperial
 ---
 
 # Main concepts
@@ -20,9 +20,9 @@ Ok let's go !
 # Maperial
 
 Instanciate and use **one** single Maperial to build every map on your web page.
-```
+{% highlight js %}
 var maperial = new Maperial();
-```
+{% endhighlight %}
 ##### With your maperial you can now :
 - Draw [MapViews](#mapviews)
 - Share [Data](#data)
@@ -52,17 +52,17 @@ Use your *maperial* to create maps, then you will be able to attach every other
 type of [MapView](#mapviews) to a Map.
 
 Each Map is linked with an html container :
-```
+{% highlight js %}
 var map = maperial.createMap({
     container: 'map1'
 });
-```
+{% endhighlight %}
 
 Therefore, you will need an html tag for every map in your web page. Here is
 the container for the previous map.
-```
+{% highlight html %}
 <div id="map1"></div>
-```
+{% endhighlight %}
 
 Read [more] (http://static.maperial.com/doc/Maperial.html#createMap)...
 about the options
@@ -74,9 +74,9 @@ about the options
 An Anchor is the exact same thing as a [Map](#map), but instead of attaching it
 to a html container, you place it inside a [MapView](#mapviews).
 
-```
+{% highlight js %}
 var anchor = map.addAnchor(options);
-```
+{% endhighlight %}
 
 - Require a [theme](#theme)
 - Example on [codepen](http://codepen.io/chrisdugne/pen/VYYbEv?editors=101)
@@ -91,9 +91,9 @@ about the options
 A Lens is a view to zoom in your map, centered on where the Lens is placed.
 A Lens allows to highlight a part of map using a different zoom.
 
-```
+{% highlight js %}
 var lens = map.addLens(options);
-```
+{% endhighlight %}
 
 Use options to set it fixed or draggable, its size, position etc...
 
@@ -108,9 +108,9 @@ about the options
 ### Magnifier
 A Magnifier is a view to zoom in your map, with the same center.
 
-```
+{% highlight js %}
 var magnifier = map.addMagnifier(options);
-```
+{% endhighlight %}
 
 Use options to set it fixed or draggable, its size, position etc...
 
@@ -125,9 +125,9 @@ about the options
 ### Minifier
 A Minifier is a view to zoom out your map, with the same center.
 
-```
+{% highlight js %}
 var minifier = map.addMinifier(options);
-```
+{% endhighlight %}
 
 Use options to set it fixed or draggable, its size, position etc...
 
@@ -233,9 +233,10 @@ to set your Feature Collections accordingly.
 #### Simple Zoom
 You can add +/- buttons in a container, and attach this tool
 to a set of MapViews
-```
+
+{% highlight js %}
 maperial.addSimpleZoom(options)
-```
+{% endhighlight %}
 
 - Require a [theme](#theme) on your page
 - @todo : Example on [codepen](http://codepen.io/chrisdugne)
@@ -262,11 +263,11 @@ Play with your [shade](#shade) dynamically by using 4 sliders modifying :
 - The light x,y and z
 - The shade scale.
 
-```
+{% highlight js %}
 maperial.addShadeControls({
     layer : shadeLayer
 });
-```
+{% endhighlight %}
 
 - Require a [theme](#theme) on your page
 - Example on [codepen](http://codepen.io/chrisdugne/pen/qEEYRp?editors=101)
