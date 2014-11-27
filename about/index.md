@@ -26,9 +26,9 @@ to draft your own maps.
 
 # The 3 Maperial's keys
 
-The ability to style your basemaps quickly and easily. Meaning to give the roads your prefered color and size, change the forests' color, fonts... Maperial innovates by rendering all this on client side. Interesting services like CloudMade or Mapbox help you style your maps as well, but forget about the ergonomy, and the speed as their images are built server side berfore to be sent to the client. Maperial sends directly vectorial data to the client, and uses javascript to render the maps on the user's computers (alike GeoJson). The user can therefore see instant changes on the basemap styles and the UX is enhanced more than ever.
+The ability to *style your basemaps* quickly and easily. Meaning to give the roads your prefered color and size, change the forests' color, fonts... Maperial innovates by rendering all this on client side. Interesting services like CloudMade or Mapbox help you style your maps as well, but forget about the ergonomy, and the speed as their images are built server side berfore to be sent to the client. Maperial sends directly vectorial data to the client, and uses javascript to render the maps on the user's computers (alike GeoJson). The user can therefore see instant changes on the basemap styles and the UX is enhanced more than ever.
 
-The ability to fuse layers (basemaps, satellite images, elevations, and moreover client's data) with purpose. Contrary to MapBox, GoogleMap API or GoogleEarth's alphablending fuse, Maperial performs beautiful fuse allowing the better basemap visibility, meanwhile emphasing the client's data.
+The ability to **fuse layers** (basemaps, satellite images, elevations, and moreover client's data) with purpose. Contrary to MapBox, GoogleMap API or GoogleEarth's alphablending fuse, Maperial performs beautiful fuse allowing the better basemap visibility, meanwhile emphasing the client's data.
 
 Data interpolation from many formats in order to display high quality rendering. Definitely better than the classical Mapbox 'heat-map' for instance. You can obviously use many interpolation algorithms to get the broadest display possibilities from the data set (density, isotropy, partitions...)
 
