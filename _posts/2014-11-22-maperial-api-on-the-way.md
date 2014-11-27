@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Maperial API
+title: "Maperial API"
 tags:
 - maperial
 - api

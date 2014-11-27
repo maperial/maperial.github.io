@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Maperial : Dynamical Data
+title: "Maperial : Dynamical Data"
 tags:
 - codepen
 - api
