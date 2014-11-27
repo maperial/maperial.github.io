@@ -39,10 +39,9 @@ Now you can add to your map :
 For example, ask for a new layer :
 {% highlight js %}
 map.addMapquest();
-```
 {% endhighlight %}
 
-##### Well, you got your first map !
+Well, you got your first map !
 
 Check the full example on this
 [codepen](http://codepen.io/chrisdugne/pen/yyyYVr?editors=101)
