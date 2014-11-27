@@ -1,8 +1,6 @@
 ---
 layout: page
 title: Concepts
-image:
-  feature: maperial-abstract-1.jpg
 ---
 
 # Main concepts

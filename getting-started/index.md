@@ -29,10 +29,20 @@ var map = maperial.createMap({
 {% endhighlight %}
 
 Now you can add to your map :
-- any [Layer] (./concepts.md#layers)
-- any other [MapView] (./concepts.md#mapview)
-- any [Data] (./concepts.md#data)
-- any [Tool] (./concepts.md#tools)
+- s qw
+- s qw
+- s qw
+
+Now you can add to your map
+- s qw
+- s qw
+- s qw
+
+Now you can add to your map :
+- any [Layer](/concepts#layers)
+- any other [MapView](./concepts.md#mapview)
+- any [Data](/concepts#data)
+- any [Tool](/concepts#tools)
 
 For example, ask for a new layer :
 {% highlight js %}
