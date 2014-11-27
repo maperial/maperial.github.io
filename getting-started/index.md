@@ -29,16 +29,7 @@ var map = maperial.createMap({
 {% endhighlight %}
 
 Now you can add to your map :
-- s qw
-- s qw
-- s qw
 
-Now you can add to your map
-- s qw
-- s qw
-- s qw
-
-Now you can add to your map :
 - any [Layer](/concepts#layers)
 - any other [MapView](./concepts.md#mapview)
 - any [Data](/concepts#data)
@@ -51,5 +42,5 @@ map.addMapquest();
 
 Well, you got your first map !
 
-Check the full example on this
-[codepen](http://codepen.io/chrisdugne/pen/yyyYVr?editors=101)
+<p data-height="450" data-theme-id="10317" data-slug-hash="yyyYVr" data-default-tab="result" data-user="chrisdugne" class='codepen'>See the Pen <a href='http://codepen.io/chrisdugne/pen/yyyYVr/'>Maperial : Your first map</a> by Chris (<a href='http://codepen.io/chrisdugne'>@chrisdugne</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
