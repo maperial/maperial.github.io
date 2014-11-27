@@ -28,7 +28,7 @@ to draft your own maps.
 
 # The 3 Maperial's keys
 
-### The ability to **style your basemaps** quickly and easily.
+### The ability to style your basemaps quickly and easily.
 
 Meaning to give the roads your prefered color and size, change the forests' color, fonts...
 
@@ -38,11 +38,11 @@ Maperial sends directly vectorial data to the client, and uses javascript to ren
 
 The user can therefore see instant changes on the basemap styles or data and the UX is enhanced more than ever.
 
-### The ability to **fuse layers** with purpose.
+### The ability to fuse layers with purpose.
 
 Contrary to MapBox, GoogleMap API or GoogleEarth's alphablending fuse, Maperial performs beautiful fuse allowing the better basemap visibility, meanwhile emphasing the client's data. You may customize all your layers' fusions (basemaps, satellite images, elevations, your data...)
 
-### **Data interpolation from many formats**
+### Data interpolation from many formats.
 
 In order to display high quality rendering. Definitely better than the classical Mapbox 'heat-map' for instance. You can obviously use many interpolation algorithms to get the broadest display possibilities from the data set (density, isotropy, partitions...)
 
@@ -90,4 +90,7 @@ The variety of custom styles can be useful to webmasters, teachers (geography, h
 
 Everyone willing to draw a map willing to master its content and rendering !
 
-### Keep in mind Maperial is entirely customisable to suit your needs, just contact us !
+### Keep in mind Maperial is entirely customisable to suit your needs,
+
+so if you find anything you miss in our API just let us know !
+
