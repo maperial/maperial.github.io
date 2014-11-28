@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Heatmap
+title: Shade Animation
 tags:
 - codepen
 - api
