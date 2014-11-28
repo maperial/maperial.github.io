@@ -11,7 +11,7 @@ how to manipulate your data and how to add tools to your maps.
 You may want to check some [examples](http://codepen.io/chrisdugne/) before anything.
 
 Once you're ready to go further, explore the complete
-API [documentation](http://static.maperial.com/doc).
+API [documentation](/documentation).
 
 Ok let's go !
 
@@ -65,7 +65,7 @@ the container for the previous map.
 <div id="map1"></div>
 {% endhighlight %}
 
-Read [more](http://static.maperial.com/doc/Maperial.html#createMap)...
+Read [more](/documentation/Maperial.html#createMap)...
 about the options
 
 
@@ -81,7 +81,7 @@ var anchor = map.addAnchor(options);
 
 - Require a [theme](#theme)
 - Example on [codepen](http://codepen.io/chrisdugne/pen/VYYbEv?editors=101)
-- Read [more](http://static.maperial.com/doc/Maperial.html#addAnchor)
+- Read [more](/documentation/Maperial.html#addAnchor)
 about the options
 
 
@@ -100,7 +100,7 @@ Use options to set it fixed or draggable, its size, position etc...
 
 - Require a [theme](#theme)
 - Example : @todo jsbin + link
-- Read [more](http://static.maperial.com/doc/Maperial.html#addLens)
+- Read [more](/documentation/Maperial.html#addLens)
 about the options
 
 
@@ -117,7 +117,7 @@ Use options to set it fixed or draggable, its size, position etc...
 
 - Require a [theme](#theme)
 - Example : @todo jsbin + link
-- Read [more](http://static.maperial.com/doc/Maperial.html#addMagnifier)
+- Read [more](/documentation/Maperial.html#addMagnifier)
 about the options
 
 
@@ -134,7 +134,7 @@ Use options to set it fixed or draggable, its size, position etc...
 
 - Require a [theme](#theme)
 - Example : @todo jsbin + link
-- Read [more](http://static.maperial.com/doc/Maperial.html#addMinifier)
+- Read [more](/documentation/Maperial.html#addMinifier)
 about the options
 
 
@@ -209,11 +209,11 @@ Fusion Settings [tool](#fusion-settings)
 # Data
 
 #### Types
-- [DynamicalData](http://static.maperial.com/doc/DynamicalData.html)
+- [DynamicalData](/documentation/DynamicalData.html)
 allows to add/remove points with custom properties.
   ([Codepen example](http://codepen.io/chrisdugne/pen/ZYYWbx?editors=101))
 
-- [HeatmapData](http://static.maperial.com/doc/HeatmapData.html)
+- [HeatmapData](/documentation/HeatmapData.html)
 allows to draw heatmaps with custom colorbars.
   ([Codepen example](http://codepen.io/chrisdugne/pen/Wbbggr?editors=101))
 
@@ -244,7 +244,7 @@ maperial.addSimpleZoom(options)
 
 - Require a [theme](#theme) on your page
 - @todo : Example on [codepen](http://codepen.io/chrisdugne)
-- Read [more](http://static.maperial.com/doc/Maperial.html#addSimpleZoom)
+- Read [more](/documentation/Maperial.html#addSimpleZoom)
 about the options
 
 
@@ -275,7 +275,7 @@ maperial.addShadeControls({
 
 - Require a [theme](#theme) on your page
 - Example on [codepen](http://codepen.io/chrisdugne/pen/qEEYRp?editors=101)
-- Read [more](http://static.maperial.com/doc/Maperial.html#addShadeControls) about the options
+- Read [more](/documentation/Maperial.html#addShadeControls) about the options
 
 
 

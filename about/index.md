@@ -23,7 +23,7 @@ to let us know your feedback !
 - Get [started](#getting-started) with a first map
 - Check out a whole bunch of Codepen [examples](http://codepen.io/chrisdugne/)
 - Understand [Maperial](./concepts.md)'s concepts
-- Explore the complete API [reference](http://static.maperial.com/doc)
+- Explore the complete API [reference](/documentation)
 to draft your own maps.
 
 
