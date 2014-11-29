@@ -35,6 +35,7 @@ With your maperial you can now :
 # MapViews
 
 There are 5 types of MapView :
+
 - a [Map](#map)
 - an [Anchor](#anchor)
 - a [Lens](#lens)
@@ -50,7 +51,7 @@ the parent MapView.
 
 A Map is the parent of all other types of MapView.
 
-Use your *maperial* to create maps, then you will be able to attach every other
+Use your `maperial` to create maps, then you will be able to attach every other
 type of [MapView](#mapviews) to a Map.
 
 Each Map is linked with an html container :
@@ -66,8 +67,7 @@ the container for the previous map.
 <div id="map1"></div>
 {% endhighlight %}
 
-Read [more](/documentation/Maperial.html#createMap)...
-about the options
+Read more on the [documentation](/documentation/Maperial.html#createMap).
 
 
 
@@ -82,8 +82,7 @@ var anchor = map.addAnchor(options);
 
 - Require a [theme](#theme)
 - Example on [codepen](http://codepen.io/chrisdugne/pen/VYYbEv?editors=101)
-- Read [more](/documentation/Maperial.html#addAnchor)
-about the options
+- Read more on the [documentation](/documentation/Maperial.html#addAnchor).
 
 
 
@@ -101,8 +100,8 @@ Use options to set it fixed or draggable, its size, position etc...
 
 - Require a [theme](#theme)
 - Example : @todo jsbin + link
-- Read [more](/documentation/Maperial.html#addLens)
-about the options
+- Read more
+on the [documentation](/documentation/Maperial.html#addLens).
 
 
 
@@ -118,8 +117,7 @@ Use options to set it fixed or draggable, its size, position etc...
 
 - Require a [theme](#theme)
 - Example : @todo jsbin + link
-- Read [more](/documentation/Maperial.html#addMagnifier)
-about the options
+- Read more on the [documentation](/documentation/Maperial.html#addMagnifier).
 
 
 
@@ -135,8 +133,7 @@ Use options to set it fixed or draggable, its size, position etc...
 
 - Require a [theme](#theme)
 - Example : @todo jsbin + link
-- Read [more](/documentation/Maperial.html#addMinifier)
-about the options
+- Read more on the [documentation](/documentation/Maperial.html#addMinifier).
 
 
 
@@ -245,8 +242,7 @@ maperial.addSimpleZoom(options)
 
 - Require a [theme](#theme) on your page
 - @todo : Example on [codepen](http://codepen.io/chrisdugne)
-- Read [more](/documentation/Maperial.html#addSimpleZoom)
-about the options
+- Read more on the [documentation](/documentation/Maperial.html#addSimpleZoom).
 
 
 
@@ -276,8 +272,7 @@ maperial.addShadeControls({
 
 - Require a [theme](#theme) on your page
 - Example on [codepen](http://codepen.io/chrisdugne/pen/qEEYRp?editors=101)
-- Read [more](/documentation/Maperial.html#addShadeControls) about the options
-
+- Read more on the [documentation](/documentation/Maperial.html#addShadeControls)
 
 
 #### Theme
