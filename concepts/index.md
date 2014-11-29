@@ -80,7 +80,7 @@ to a html container, you place it inside a [MapView](#mapviews).
 var anchor = map.addAnchor(options);
 {% endhighlight %}
 
-- Require a [theme](#theme)
+- Requires a [theme](#theme)
 - Example on [codepen](http://codepen.io/chrisdugne/pen/VYYbEv?editors=101)
 - Read more on the [documentation](/documentation/Maperial.html#addAnchor).
 
@@ -98,7 +98,7 @@ var lens = map.addLens(options);
 
 Use options to set it fixed or draggable, its size, position etc...
 
-- Require a [theme](#theme)
+- Requires a [theme](#theme)
 - Example : @todo jsbin + link
 - Read more
 on the [documentation](/documentation/Maperial.html#addLens).
@@ -115,7 +115,7 @@ var magnifier = map.addMagnifier(options);
 
 Use options to set it fixed or draggable, its size, position etc...
 
-- Require a [theme](#theme)
+- Requires a [theme](#theme)
 - Example : @todo jsbin + link
 - Read more on the [documentation](/documentation/Maperial.html#addMagnifier).
 
@@ -131,7 +131,7 @@ var minifier = map.addMinifier(options);
 
 Use options to set it fixed or draggable, its size, position etc...
 
-- Require a [theme](#theme)
+- Requires a [theme](#theme)
 - Example : @todo jsbin + link
 - Read more on the [documentation](/documentation/Maperial.html#addMinifier).
 
@@ -240,7 +240,7 @@ to a set of MapViews
 maperial.addSimpleZoom(options)
 {% endhighlight %}
 
-- Require a [theme](#theme) on your page
+- Requires a [theme](#theme) on your page
 - @todo : Example on [codepen](http://codepen.io/chrisdugne)
 - Read more on the [documentation](/documentation/Maperial.html#addSimpleZoom).
 
@@ -270,7 +270,7 @@ maperial.addShadeControls({
 });
 {% endhighlight %}
 
-- Require a [theme](#theme) on your page
+- Requires a [theme](#theme) on your page
 - Example on [codepen](http://codepen.io/chrisdugne/pen/qEEYRp?editors=101)
 - Read more on the [documentation](/documentation/Maperial.html#addShadeControls)
 
