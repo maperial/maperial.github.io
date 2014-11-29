@@ -14,13 +14,13 @@ Well, you're not on the Moon, this is Mount Fuji : )
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
 
-Add this to play with the fusion controls
+Add this to play with the fusion controls :
 {% highlight js %}
 maperial.addFusionControls({
   layer : landscape
 });
 {% endhighlight %}
 
-Then if you play with the sliders to test the Fusion settings, you'll see everything is dynamically refreshed, while the shade animation keeps going on.
+Now if you play with the sliders to test the Fusion settings, you'll see everything is dynamically refreshed, while the shade animation keeps going on.
 
 Complete [documentation](/documentation/Maperial.html#addShadeControls) for options.
