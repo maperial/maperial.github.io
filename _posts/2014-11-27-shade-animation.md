@@ -21,5 +21,6 @@ maperial.addFusionControls({
 });
 {% endhighlight %}
 
-- Play with the sliders to test the Fusion settings : everything is dynamically refreshed, while the shade animation keeps going on.
-- Complete [documentation](/documentation/Maperial.html#addShadeControls) for options.
+Then if you play with the sliders to test the Fusion settings, you'll see everything is dynamically refreshed, while the shade animation keeps going on.
+
+Complete [documentation](/documentation/Maperial.html#addShadeControls) for options.
