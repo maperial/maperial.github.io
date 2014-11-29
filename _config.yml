@@ -1,7 +1,7 @@
 title:            Maperial
 description:      Javascript API to create maps.
 disqus_shortname: maperial
-reading_time:     true
+reading_time:     false
 words_per_minute: 200
 # Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
 # When testing locally leave blank or use http://localhost:4000
@@ -14,11 +14,11 @@ owner:
   # bio:            "Your bio goes here. It shouldn't be super long but a good two sentences or two should suffice."
   # email:          you@email.com
   # Social networking links used in footer. Update and remove as you like.
-  twitter:
+  twitter:        Maperial
   facebook:
   github:         maperial/maperial.js
   stackexchange:
-  linkedin:
+  linkedin:       3079612
   instagram:
   flickr:
   tumblr:
