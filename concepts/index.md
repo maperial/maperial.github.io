@@ -25,6 +25,7 @@ var maperial = new Maperial();
 {% endhighlight %}
 
 With your maperial you can now :
+
 - Draw [MapViews](#mapviews)
 - Share [Data](#data)
 - Attach [Tools](#tools)
