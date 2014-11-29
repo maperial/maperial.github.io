@@ -51,7 +51,7 @@ permalink:   /:categories/:title/
 
 # Amount of post to show on home page
 paginate: 5
-paginate_path: "/posts/page:num/"
+paginate_path: "/posssts/page:num/"
 
 kramdown:
   auto_ids: true
