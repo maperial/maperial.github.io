@@ -34,7 +34,7 @@ image:
 </article><!-- /.hentry -->
 {% endfor %}
 
-<div markdown="1">
+{% capture home-md-include %}
   # Maperial : a new way to create maps
 
   Maperial is a free javascript API to create *dynamical* maps for your web
@@ -55,7 +55,8 @@ image:
   - Understand [Maperial](./concepts.md)'s concepts
   - Explore the complete API [reference](/documentation)
   to draft your own maps.
-</div>
+{% endcapture %}
+{{ home-md-include | markdownify }}
 
 <article class="hentry">
   <div class="entry-content">
