@@ -81,10 +81,9 @@ var anchor = map.addAnchor(options);
 {% endhighlight %}
 
 - Requires a [theme](#theme)
-- Example on [codepen](http://codepen.io/chrisdugne/pen/VYYbEv?editors=101)
 - Read more on the [documentation](/documentation/Maperial.html#addAnchor).
 
-<p data-height="450" data-theme-id="10317" data-slug-hash="VYYbEv" data-default-tab="result" data-user="chrisdugne" class='codepen'>See the Pen <a href='http://codepen.io/chrisdugne/pen/VYYbEv/'>Maperial : Anchors</a> by Chris (<a href='http://codepen.io/chrisdugne'>@chrisdugne</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<p data-height="450" data-theme-id="10317" data-slug-hash="myemdv" data-default-tab="result" data-user="chrisdugne" class='codepen'>See the Pen <a href='http://codepen.io/chrisdugne/pen/myemdv/'>Maperial : Anchors</a> by Chris (<a href='http://codepen.io/chrisdugne'>@chrisdugne</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
 
