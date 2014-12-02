@@ -161,6 +161,7 @@ You have a many collections of tiles for your maps :
 
 `view.addEarthLight()`
 
+<figure class="half">
 #### Aerosol :
 
 {% highlight js %}
@@ -172,6 +173,7 @@ view.addAerosol()
 {% highlight js %}
 view.addNDVI()
 {% endhighlight %}
+</figure>
 
 #### Shuttle Radar Topography Mission :
 
