@@ -142,7 +142,7 @@ and draw unique maps.
 
 # Image Layers
 
-You have a many collections of tiles for your maps :
+You can use numerous collections of tiles for your maps :
 
 - Our own [Tiles](#maperial-layers)
 - Tiles from [Open Street Map](#open-street-map)
