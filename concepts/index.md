@@ -160,7 +160,7 @@ You have a many collections of tiles for your maps :
 view.addShade()
 {% endhighlight %}
 </div>
-<img class="right" src="/images/layers/aerosol.jpg" alt="">
+<img class="right" src="/images/layers/shade.jpg" alt="">
 
 
 <div class="half">
@@ -170,7 +170,7 @@ view.addShade()
 view.addEarthLight()
 {% endhighlight %}
 </div>
-<img class="right" src="/images/layers/aerosol.jpg" alt="">
+<img class="right" src="/images/layers/earthlight.jpg" alt="">
 
 
 <div class="half">
