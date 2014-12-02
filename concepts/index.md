@@ -91,18 +91,21 @@ var anchor = map.addAnchor(options);
 
 ### Lens
 A Lens is a view to zoom in your map, centered on where the Lens is placed.
-A Lens allows to highlight a part of map using a different zoom.
+A Lens allows to highlight an area using a greater zoom.
 
 {% highlight js %}
 var lens = map.addLens(options);
 {% endhighlight %}
 
-Use options to set it fixed or draggable, its size, position etc...
+Use options to set it fixed or draggable, customize the size, position etc...
 
 - Requires a [theme](#theme)
-- Example : @todo jsbin + link
 - Read more
 on the [documentation](/documentation/Maperial.html#addLens).
+
+<p data-height="450" data-theme-id="10317" data-slug-hash="EaVoVV" data-default-tab="result" data-user="chrisdugne" class='codepen'>See the Pen <a href='http://codepen.io/chrisdugne/pen/EaVoVV/'>Maperial : Lens</a> by Chris (<a href='http://codepen.io/chrisdugne'>@chrisdugne</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+
 
 
 
@@ -110,6 +113,7 @@ on the [documentation](/documentation/Maperial.html#addLens).
 
 ### Minifier
 A Minifier is a view to zoom out your map, with the same center.
+It allows to understand where is situated the area using a lower zoom.
 
 {% highlight js %}
 var minifier = map.addMinifier(options);
@@ -120,6 +124,9 @@ Use options to set it fixed or draggable, its size, position etc...
 - Requires a [theme](#theme)
 - Example : @todo jsbin + link
 - Read more on the [documentation](/documentation/Maperial.html#addMinifier).
+
+<p data-height="450" data-theme-id="10317" data-slug-hash="pvjpgB" data-default-tab="result" data-user="chrisdugne" class='codepen'>See the Pen <a href='http://codepen.io/chrisdugne/pen/pvjpgB/'>Maperial : Minifier</a> by Chris (<a href='http://codepen.io/chrisdugne'>@chrisdugne</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
 
 
