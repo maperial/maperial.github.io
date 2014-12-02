@@ -142,7 +142,8 @@ and draw unique maps.
 
 # Image Layers
 
-You can use numerous collections of tiles for your maps :
+We provide our own unhackneyed tiles but you may use a complete collection of
+external tiles.
 
 - Our own [Tiles](#maperial-layers)
 - Tiles from [Open Street Map](#open-street-map)
