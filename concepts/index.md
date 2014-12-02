@@ -142,17 +142,16 @@ and draw unique maps.
 
 # Image Layers
 
-We provide our own unhackneyed tiles but you may use a complete collection of
-external tiles.
+We provide our own unhackneyed tiles but you may use an evergrowing collection of external tiles.
 
-- Our own [Tiles](#maperial-layers)
+- [Maperial Tiles](#maperial-tiles)
 - Tiles from [Open Street Map](#open-street-map)
 - Tiles from [Thunderforest](#thunderforest)
 - Tiles from [Stamen](#stamen)
 - Tiles from [Mapquest](#mapquest)
 - Tiles from numerous [WMS](#wms)
 
-## Maperial layers
+## Maperial tiles
 
 <div class="half">
 <h4> Shaded Relief :</h4>
@@ -226,29 +225,61 @@ view.addSST()
 view.addOSM()
 {% endhighlight %}
 </div>
-<img class="right" src="/images/layers/aerosol.jpg" alt="">
+<img class="right" src="/images/layers/osm.jpg" alt="">
 
 
 ## Thunderforest
+
+
+<div class="half">
+<h4> OpenCycleMap :</h4>
+
+{% highlight js %}
+view.addOCM()
+{% endhighlight %}
+</div>
+<img class="right" src="/images/layers/ocm.jpg" alt="">
+
 
 <div class="half">
 <h4> Transport :</h4>
 
 {% highlight js %}
-view.addOCMTransport()
+view.addTransport()
 {% endhighlight %}
 </div>
-<img class="right" src="/images/layers/aerosol.jpg" alt="">
+<img class="right" src="/images/layers/transport.jpg" alt="">
 
 
 <div class="half">
 <h4> Landscape :</h4>
 
 {% highlight js %}
-view.addOCMLandscape()
+view.addLandscape()
 {% endhighlight %}
 </div>
-<img class="right" src="/images/layers/aerosol.jpg" alt="">
+<img class="right" src="/images/layers/landscape.jpg" alt="">
+
+
+
+<div class="half">
+<h4> Outdoors :</h4>
+
+{% highlight js %}
+view.addOutdoors()
+{% endhighlight %}
+</div>
+<img class="right" src="/images/layers/outdoors.jpg" alt="">
+
+
+<div class="half">
+<h4> Transport Dark :</h4>
+
+{% highlight js %}
+view.addTransportDark()
+{% endhighlight %}
+</div>
+<img class="right" src="/images/layers/transport-dark.jpg" alt="">
 
 
 Tiles © [Thunderforest](http://www.thunderforest.com/), Data © [OpenStreetMap contributors](http://www.openstreetmap.org/copyright)
@@ -262,7 +293,7 @@ Tiles © [Thunderforest](http://www.thunderforest.com/), Data © [OpenStreetMap 
 view.addWatercolor()
 {% endhighlight %}
 </div>
-<img class="right" src="/images/layers/aerosol.jpg" alt="">
+<img class="right" src="/images/layers/watercolor.jpg" alt="">
 
 
 <div class="half">
@@ -272,7 +303,7 @@ view.addWatercolor()
 view.addTerrain()
 {% endhighlight %}
 </div>
-<img class="right" src="/images/layers/aerosol.jpg" alt="">
+<img class="right" src="/images/layers/terrain.jpg" alt="">
 
 
 <div class="half">
@@ -282,7 +313,7 @@ view.addTerrain()
 view.addToner()
 {% endhighlight %}
 </div>
-<img class="right" src="/images/layers/aerosol.jpg" alt="">
+<img class="right" src="/images/layers/toner.jpg" alt="">
 
 
 <div class="half">
@@ -292,7 +323,7 @@ view.addToner()
 view.addTonerBG()
 {% endhighlight %}
 </div>
-<img class="right" src="/images/layers/aerosol.jpg" alt="">
+<img class="right" src="/images/layers/toner-bg.jpg" alt="">
 
 
 ## Mapquest
@@ -304,7 +335,7 @@ view.addTonerBG()
 view.addMapquest()
 {% endhighlight %}
 </div>
-<img class="right" src="/images/layers/aerosol.jpg" alt="">
+<img class="right" src="/images/layers/mapquest.jpg" alt="">
 
 
 <div class="half">
@@ -314,7 +345,7 @@ view.addMapquest()
 view.addSatellite()
 {% endhighlight %}
 </div>
-<img class="right" src="/images/layers/aerosol.jpg" alt="">
+<img class="right" src="/images/layers/satellite.jpg" alt="">
 
 
 
@@ -327,7 +358,7 @@ view.addSatellite()
 view.addCorineLandCover()
 {% endhighlight %}
 </div>
-<img class="right" src="/images/layers/aerosol.jpg" alt="">
+<img class="right" src="/images/layers/corine-land-cover.jpg" alt="">
 
 
 
