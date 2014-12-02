@@ -26,7 +26,7 @@ var maperial = new Maperial();
 
 With your `maperial` you can now :
 
-- Draw [MapViews](#mapviews)
+- Draw [MapViews](#mapviews) with [Layers](#layers)
 - Share [Data](#data)
 - Attach [Tools](#tools)
 
