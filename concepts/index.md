@@ -140,41 +140,49 @@ and draw unique maps.
 
 
 
-## Image Layers
+# Image Layers
 
-#### Maperial layers
+You have a many collections of tiles for your maps :
+- Our own [Tiles](#maperial-layers)
+- Tiles from [Open Street Map](#open-street-map)
+- Tiles from [Thunderforest](#thunderforest)
+- Tiles from [Stamen](#stamen)
+- Tiles from [Mapquest](#mapquest)
+- Tiles from numerous [WMS](#wms)
 
-Shaded Relief :
+## Maperial layers
+
+#### Shaded Relief :
 
 {% highlight js %}
 view.addShade()
 {% endhighlight %}
 
-City lights at night :
+#### City lights at night :
 
 {% highlight js %}
 view.addEarthLight()
 {% endhighlight %}
 
-Aerosol :
+#### Aerosol :
 
 {% highlight js %}
 view.addAerosol()
 {% endhighlight %}
 
-Normalized Difference Vegetation Index :
+#### Normalized Difference Vegetation Index :
 
 {% highlight js %}
 view.addNDVI()
 {% endhighlight %}
 
-Shuttle Radar Topography Mission :
+#### Shuttle Radar Topography Mission :
 
 {% highlight js %}
 view.addSRTM()
 {% endhighlight %}
 
-Sea Surface Temperature :
+#### Sea Surface Temperature :
 
 {% highlight js %}
 view.addSST()
@@ -182,14 +190,14 @@ view.addSST()
 
 ##### (@todo : maperialOSM)
 
-#### Open Street Map
+## Open Street Map
 
 {% highlight js %}
 view.addOSM()
 {% endhighlight %}
 
 
-#### Thunderforest
+## Thunderforest
 {% highlight js %}
 view.addOCMTransport()
 {% endhighlight %}
@@ -201,7 +209,7 @@ view.addOCMLandscape()
 
 Tiles © [Thunderforest](http://www.thunderforest.com/), Data © [OpenStreetMap contributors](http://www.openstreetmap.org/copyright)
 
-#### Stamen
+## Stamen
 
 {% highlight js %}
 view.addWatercolor()
@@ -220,7 +228,7 @@ view.addTonerBG()
 {% endhighlight %}
 
 
-#### Mapquest
+## Mapquest
 
 {% highlight js %}
 view.addMapquest()
@@ -231,7 +239,7 @@ view.addSatellite()
 {% endhighlight %}
 
 
-#### WMS Layers
+## WMS
 
 {% highlight js %}
 view.addCorineLandCover()
@@ -241,7 +249,7 @@ view.addCorineLandCover()
 
 
 
-## Data Layers
+# Data Layers
 Before to add data layers, you need to create your [Data](#data) first.
 
 Then you can attach it to any [MapView](#mapviews) by adding a layer
@@ -251,21 +259,6 @@ depending on the data type :
 - view.addHeamapLayer(data, options);
 
 @todo : links to /doc
-
-
-
-## Fusion
-Use custom settings to fuse 2 layers
-@todo settings panel + doc
-
-- AlphaBlend (param float [0,1])
-- AlphaClip  (param float [0,1])
-- XBlend
-
-You can allow users to change your settings manually by including the
-Fusion Settings [tool](#fusion-settings)
-
-
 
 
 # Data
@@ -291,6 +284,19 @@ Use <a href="http://geojson.org">GeoJson</a> to represent your Data.
 
 Check the different [types](#types) of data
 to set your Feature Collections accordingly.
+
+
+
+# Fusion
+Use custom settings to fuse 2 layers
+@todo settings panel + doc
+
+- AlphaBlend (param float [0,1])
+- AlphaClip  (param float [0,1])
+- XBlend
+
+You can allow users to change your settings manually by including the
+Fusion Settings [tool](#fusion-settings)
 
 
 
