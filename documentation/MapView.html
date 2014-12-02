@@ -831,7 +831,7 @@
     
         
         <div class="tag-source">
-            map/map-view.js, line 229
+            map/map-view.js, line 230
         </div>
         
     </div>
@@ -908,7 +908,7 @@
 	
         <tr>
             
-                <td class="name"><code>radius</code></td>
+                <td class="name"><code>width</code></td>
             
             
             <td class="type">
@@ -924,8 +924,32 @@
             
             <td class="description last">
                 
-                <p>The lens radius, in pixels.
-                             (Default : map.width * 0.1)</p></td>
+                <p>The lens width, in pixels.
+                             (Default : 200px)</p></td>
+        </tr>
+	
+	
+	
+        <tr>
+            
+                <td class="name"><code>height</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">float</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                <p>The lens height, in pixels.
+                             (Default : 200px)</p></td>
         </tr>
 	
 	
@@ -948,9 +972,9 @@
             
             <td class="description last">
                 
-                <p>The lens center from the map top left,
+                <p>The lens top from its parent top,
                            in pixels.
-                             (Default : map.width * 0.5)</p></td>
+                           (Default : placed at parent.bottom - 20px)</p></td>
         </tr>
 	
 	
@@ -973,9 +997,9 @@
             
             <td class="description last">
                 
-                <p>The lens center from the map top left,
+                <p>The lens left from its parent left,
                            in pixels.
-                             (Default : map.width * 0.5)</p></td>
+                           (Default : placed at parent.left - 20px)</p></td>
         </tr>
 	
 	
@@ -1101,12 +1125,12 @@
     <div class="nameContainer">
         <h4 class="name" id="addMinifier">
             
-            addMinifier<span class="signature">()</span>
+            addMinifier<span class="signature">(options)</span>
         </h4>
     
         
         <div class="tag-source">
-            map/map-view.js, line 252
+            map/map-view.js, line 269
         </div>
         
     </div>
@@ -1121,6 +1145,171 @@
     
     
     
+    
+        
+
+<table class="params">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+		
+		<th>Type</th>
+		
+		
+		
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	
+        <tr>
+            
+                <td class="name"><code>options</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">object</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                
+                
+
+<table class="params">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+		
+		<th>Type</th>
+		
+		
+		
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	
+        <tr>
+            
+                <td class="name"><code>width</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">float</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                <p>The lens width, in pixels.
+                             (Default : 200px)</p></td>
+        </tr>
+	
+	
+	
+        <tr>
+            
+                <td class="name"><code>height</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">float</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                <p>The lens height, in pixels.
+                             (Default : 200px)</p></td>
+        </tr>
+	
+	
+	
+        <tr>
+            
+                <td class="name"><code>top</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">float</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                <p>The lens top from its parent top,
+                           in pixels.
+                           (Default : placed at parent.bottom - 20px)</p></td>
+        </tr>
+	
+	
+	
+        <tr>
+            
+                <td class="name"><code>left</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">float</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                <p>The lens left from its parent left,
+                           in pixels.
+                           (Default : placed at parent.left - 20px)</p></td>
+        </tr>
+	
+	
+	</tbody>
+</table>
+            </td>
+        </tr>
+	
+	
+	</tbody>
+</table>
     
     
     
@@ -2078,7 +2267,7 @@
         
 
         <footer>
-            Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.2.2</a> on Tue Dec 02 2014 13:54:31 GMT+0100 (CET)
+            Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.2.2</a> on Tue Dec 02 2014 14:27:22 GMT+0100 (CET)
         </footer>
     </div>
 </div>

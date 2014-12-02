@@ -24,7 +24,7 @@ Instanciate and use **one** single Maperial to build every map on your web page.
 var maperial = new Maperial();
 {% endhighlight %}
 
-With your maperial you can now :
+With your `maperial` you can now :
 
 - Draw [MapViews](#mapviews)
 - Share [Data](#data)
@@ -34,7 +34,7 @@ With your maperial you can now :
 
 # MapViews
 
-There are 5 types of MapView :
+A MapView can be either :
 
 - a [Map](#map)
 - an [Anchor](#anchor)
@@ -60,8 +60,8 @@ var map = maperial.createMap({
 });
 {% endhighlight %}
 
-Therefore, you will need an html tag for every map in your web page. Here is
-the container for the previous map.
+Therefore, you will need an html tag for every `map` in your web page. Here is
+the container for the previous `map`.
 {% highlight html %}
 <div id="map1"></div>
 {% endhighlight %}
@@ -84,6 +84,9 @@ var anchor = map.addAnchor(options);
 
 <p data-height="450" data-theme-id="10317" data-slug-hash="myemdv" data-default-tab="result" data-user="chrisdugne" class='codepen'>See the Pen <a href='http://codepen.io/chrisdugne/pen/myemdv/'>Maperial : Anchors</a> by Chris (<a href='http://codepen.io/chrisdugne'>@chrisdugne</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+
+
+
 
 
 ### Lens
