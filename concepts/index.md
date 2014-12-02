@@ -190,7 +190,7 @@ view.addAerosol()
 view.addNDVI()
 {% endhighlight %}
 </div>
-<img class="right" src="/images/layers/aerosol.jpg" alt="">
+<img class="right" src="/images/layers/ndvi.jpg" alt="">
 
 
 <div class="half">
@@ -200,7 +200,7 @@ view.addNDVI()
 view.addSRTM()
 {% endhighlight %}
 </div>
-<img class="right" src="/images/layers/aerosol.jpg" alt="">
+<img class="right" src="/images/layers/srtm.jpg" alt="">
 
 
 <div class="half">
@@ -210,7 +210,7 @@ view.addSRTM()
 view.addSST()
 {% endhighlight %}
 </div>
-<img class="right" src="/images/layers/aerosol.jpg" alt="">
+<img class="right" src="/images/layers/sst.jpg" alt="">
 
 <h4> Soon : maperial OSM layers from maperial 1.0</h4>
 
