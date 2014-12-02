@@ -3,7 +3,6 @@ layout: page
 title: Getting Started
 ---
 
-# Getting started
 First of all, add the js script on your page
 {% highlight html %}
 <script src="http://static.maperial.com/js/maperial.js" type="text/javascript"></script>
