@@ -141,31 +141,102 @@ and draw unique maps.
 
 
 ## Image Layers
-- todo : thumbnails + links to /doc
-
-#### External layers
-- view.addOCMTransport()
-- view.addOCMLandscape()
-- view.addWatercolor()
-- view.addMapquest()
-- view.addSatellite()
 
 #### Maperial layers
 
-###### Shade
-- view.addShade()
+Shaded Relief :
 
-###### City lights at night
-- view.addEarthLight()
+{% highlight js %}
+view.addShade()
+{% endhighlight %}
 
-- view.addAerosol()
-- view.addNDVI()
-- view.addSRTM()
-- view.addSST()
-- todo : maperialOSM
+City lights at night :
+
+{% highlight js %}
+view.addEarthLight()
+{% endhighlight %}
+
+Aerosol :
+
+{% highlight js %}
+view.addAerosol()
+{% endhighlight %}
+
+Normalized Difference Vegetation Index :
+
+{% highlight js %}
+view.addNDVI()
+{% endhighlight %}
+
+Shuttle Radar Topography Mission :
+
+{% highlight js %}
+view.addSRTM()
+{% endhighlight %}
+
+Sea Surface Temperature :
+
+{% highlight js %}
+view.addSST()
+{% endhighlight %}
+
+##### (@todo : maperialOSM)
+
+#### Open Street Map
+
+{% highlight js %}
+view.addOSM()
+{% endhighlight %}
+
+
+#### Thunderforest
+{% highlight js %}
+view.addOCMTransport()
+{% endhighlight %}
+
+{% highlight js %}
+view.addOCMLandscape()
+{% endhighlight %}
+
+
+Tiles © [Thunderforest](http://www.thunderforest.com/), Data © [OpenStreetMap contributors](http://www.openstreetmap.org/copyright)
+
+#### Stamen
+
+{% highlight js %}
+view.addWatercolor()
+{% endhighlight %}
+
+{% highlight js %}
+view.addTerrain()
+{% endhighlight %}
+
+{% highlight js %}
+view.addToner()
+{% endhighlight %}
+
+{% highlight js %}
+view.addTonerBG()
+{% endhighlight %}
+
+
+#### Mapquest
+
+{% highlight js %}
+view.addMapquest()
+{% endhighlight %}
+
+{% highlight js %}
+view.addSatellite()
+{% endhighlight %}
+
 
 #### WMS Layers
-- todo : few examples
+
+{% highlight js %}
+view.addCorineLandCover()
+{% endhighlight %}
+
 
 
 
