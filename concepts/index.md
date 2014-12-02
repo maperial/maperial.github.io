@@ -165,22 +165,21 @@ view.addShade()
 view.addEarthLight()
 {% endhighlight %}
 
-<div class="columns">
-<div class="left">
+<div class="half">
 <h4> Aerosol :</h4>
 
 {% highlight js %}
 view.addAerosol()
 {% endhighlight %}
 </div>
+<img class="right" src="/images/layers/aerosol.jpg" alt=""></img>
 
-<div class="right">
+<div class="half">
 <h4> Normalized Difference Vegetation Index :</h4>
 
 {% highlight js %}
 view.addNDVI()
 {% endhighlight %}
-</div>
 </div>
 
 #### Shuttle Radar Topography Mission :
