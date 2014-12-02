@@ -153,17 +153,25 @@ You have a many collections of tiles for your maps :
 
 ## Maperial layers
 
-#### Shaded Relief :
+<div class="half">
+<h4> Shaded Relief :</h4>
 
 {% highlight js %}
 view.addShade()
 {% endhighlight %}
+</div>
+<img class="right" src="/images/layers/aerosol.jpg" alt=""></img>
 
-#### City lights at night :
+
+<div class="half">
+<h4> City lights at night :</h4>
 
 {% highlight js %}
 view.addEarthLight()
 {% endhighlight %}
+</div>
+<img class="right" src="/images/layers/aerosol.jpg" alt=""></img>
+
 
 <div class="half">
 <h4> Aerosol :</h4>
@@ -174,6 +182,7 @@ view.addAerosol()
 </div>
 <img class="right" src="/images/layers/aerosol.jpg" alt=""></img>
 
+
 <div class="half">
 <h4> Normalized Difference Vegetation Index :</h4>
 
@@ -181,6 +190,8 @@ view.addAerosol()
 view.addNDVI()
 {% endhighlight %}
 </div>
+<img class="right" src="/images/layers/aerosol.jpg" alt=""></img>
+
 
 #### Shuttle Radar Topography Mission :
 
