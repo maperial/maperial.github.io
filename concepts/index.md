@@ -155,15 +155,11 @@ You have a many collections of tiles for your maps :
 
 #### Shaded Relief :
 
-{% highlight js %}
-view.addShade()
-{% endhighlight %}
+`view.addShade()`
 
 #### City lights at night :
 
-{% highlight js %}
-view.addEarthLight()
-{% endhighlight %}
+`view.addEarthLight()`
 
 #### Aerosol :
 
