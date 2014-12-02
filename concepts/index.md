@@ -39,7 +39,6 @@ There are 5 types of MapView :
 - a [Map](#map)
 - an [Anchor](#anchor)
 - a [Lens](#lens)
-- a [Magnifier](#magnifier)
 - a [Minifier](#minifier)
 
 If you don't specify layers on a child MapView, it will use the same ones as
@@ -102,21 +101,6 @@ Use options to set it fixed or draggable, its size, position etc...
 - Read more
 on the [documentation](/documentation/Maperial.html#addLens).
 
-
-
-
-### Magnifier
-A Magnifier is a view to zoom in your map, with the same center.
-
-{% highlight js %}
-var magnifier = map.addMagnifier(options);
-{% endhighlight %}
-
-Use options to set it fixed or draggable, its size, position etc...
-
-- Requires a [theme](#theme)
-- Example : @todo jsbin + link
-- Read more on the [documentation](/documentation/Maperial.html#addMagnifier).
 
 
 

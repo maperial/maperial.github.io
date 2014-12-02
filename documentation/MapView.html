@@ -186,11 +186,11 @@
             
                 <li data-name="MapView#addAnchor"><a href="MapView.html#addAnchor">addAnchor</a></li>
             
+                <li data-name="MapView#addCorineLandCover"><a href="MapView.html#addCorineLandCover">addCorineLandCover</a></li>
+            
                 <li data-name="MapView#addEarthLight"><a href="MapView.html#addEarthLight">addEarthLight</a></li>
             
                 <li data-name="MapView#addLens"><a href="MapView.html#addLens">addLens</a></li>
-            
-                <li data-name="MapView#addMagnifier"><a href="MapView.html#addMagnifier">addMagnifier</a></li>
             
                 <li data-name="MapView#addMapquest"><a href="MapView.html#addMapquest">addMapquest</a></li>
             
@@ -198,9 +198,13 @@
             
                 <li data-name="MapView#addNDVI"><a href="MapView.html#addNDVI">addNDVI</a></li>
             
+                <li data-name="MapView#addOCMCycle"><a href="MapView.html#addOCMCycle">addOCMCycle</a></li>
+            
                 <li data-name="MapView#addOCMLandscape"><a href="MapView.html#addOCMLandscape">addOCMLandscape</a></li>
             
                 <li data-name="MapView#addOCMTransport"><a href="MapView.html#addOCMTransport">addOCMTransport</a></li>
+            
+                <li data-name="MapView#addOSM"><a href="MapView.html#addOSM">addOSM</a></li>
             
                 <li data-name="MapView#addSatellite"><a href="MapView.html#addSatellite">addSatellite</a></li>
             
@@ -209,6 +213,12 @@
                 <li data-name="MapView#addSRTM"><a href="MapView.html#addSRTM">addSRTM</a></li>
             
                 <li data-name="MapView#addSST"><a href="MapView.html#addSST">addSST</a></li>
+            
+                <li data-name="MapView#addTerrain"><a href="MapView.html#addTerrain">addTerrain</a></li>
+            
+                <li data-name="MapView#addToner"><a href="MapView.html#addToner">addToner</a></li>
+            
+                <li data-name="MapView#addTonerBG"><a href="MapView.html#addTonerBG">addTonerBG</a></li>
             
                 <li data-name="MapView#addWatercolor"><a href="MapView.html#addWatercolor">addWatercolor</a></li>
             
@@ -240,6 +250,8 @@
                 <li data-name="ShadeLayer#lightY"><a href="ShadeLayer.html#lightY">lightY</a></li>
             
                 <li data-name="ShadeLayer#lightZ"><a href="ShadeLayer.html#lightZ">lightZ</a></li>
+            
+                <li data-name="ShadeLayer#loop"><a href="ShadeLayer.html#loop">loop</a></li>
             
                 <li data-name="ShadeLayer#scale"><a href="ShadeLayer.html#scale">scale</a></li>
             
@@ -289,7 +301,7 @@
     
         
         <div class="tag-source">
-            map/map-view.js, line 30
+            map/map-view.js, line 29
         </div>
         
     </div>
@@ -305,7 +317,6 @@
 <li>a <a href="Maperial.html#createMap">Map</a></li>
 <li>an Anchor</li>
 <li>a Minifier</li>
-<li>a Magnifier</li>
 <li>a Lens</li>
 </ul>
     </div>
@@ -385,7 +396,7 @@
     
         
         <div class="tag-source">
-            map/map-view.js, line 101
+            map/map-view.js, line 142
         </div>
         
     </div>
@@ -452,7 +463,7 @@
     
         
         <div class="tag-source">
-            map/map-view.js, line 143
+            map/map-view.js, line 196
         </div>
         
     </div>
@@ -593,8 +604,8 @@
             
             <td class="description last">
                 
-                <p>The anchor top gap inside the map, in pixels.
-                             (Default : 0)</p></td>
+                <p>The anchor top gap inside the map,
+                           in pixels. (Default : 0)</p></td>
         </tr>
 	
 	
@@ -617,8 +628,8 @@
             
             <td class="description last">
                 
-                <p>The anchor left gap inside the map, in pixels.
-                             (Default : 0)</p></td>
+                <p>The anchor left gap inside the map,
+                            in pixels.(Default : 0)</p></td>
         </tr>
 	
 	
@@ -675,6 +686,77 @@
             
 <dt>
     <div class="nameContainer">
+        <h4 class="name" id="addCorineLandCover">
+            
+            addCorineLandCover<span class="signature">()</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            map/map-view.js, line 175
+        </div>
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        <p>test WMS CLC</p>
+    </div>
+    
+
+    
+    
+    
+    
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
         <h4 class="name" id="addEarthLight">
             
             addEarthLight<span class="signature">()</span>
@@ -682,7 +764,7 @@
     
         
         <div class="tag-source">
-            map/map-view.js, line 94
+            map/map-view.js, line 135
         </div>
         
     </div>
@@ -749,7 +831,7 @@
     
         
         <div class="tag-source">
-            map/map-view.js, line 175
+            map/map-view.js, line 229
         </div>
         
     </div>
@@ -866,7 +948,8 @@
             
             <td class="description last">
                 
-                <p>The lens center from the map top left, in pixels.
+                <p>The lens center from the map top left,
+                           in pixels.
                              (Default : map.width * 0.5)</p></td>
         </tr>
 	
@@ -890,7 +973,8 @@
             
             <td class="description last">
                 
-                <p>The lens center from the map top left, in pixels.
+                <p>The lens center from the map top left,
+                           in pixels.
                              (Default : map.width * 0.5)</p></td>
         </tr>
 	
@@ -903,73 +987,6 @@
 	
 	</tbody>
 </table>
-    
-    
-    
-<dl class="details">
-    
-        
-    
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-</dl>
-
-    
-    
-
-    
-
-    
-    
-    
-    
-    
-    
-    
-</dd>
-
-        
-            
-<dt>
-    <div class="nameContainer">
-        <h4 class="name" id="addMagnifier">
-            
-            addMagnifier<span class="signature">()</span>
-        </h4>
-    
-        
-        <div class="tag-source">
-            map/map-view.js, line 205
-        </div>
-        
-    </div>
-
-    
-</dt>
-<dd>
-    
-    
-
-    
-    
-    
-    
     
     
     
@@ -1022,7 +1039,7 @@
     
         
         <div class="tag-source">
-            map/map-view.js, line 69
+            map/map-view.js, line 103
         </div>
         
     </div>
@@ -1089,7 +1106,7 @@
     
         
         <div class="tag-source">
-            map/map-view.js, line 198
+            map/map-view.js, line 252
         </div>
         
     </div>
@@ -1156,7 +1173,7 @@
     
         
         <div class="tag-source">
-            map/map-view.js, line 108
+            map/map-view.js, line 149
         </div>
         
     </div>
@@ -1216,14 +1233,14 @@
             
 <dt>
     <div class="nameContainer">
-        <h4 class="name" id="addOCMLandscape">
+        <h4 class="name" id="addOCMCycle">
             
-            addOCMLandscape<span class="signature">()</span>
+            addOCMCycle<span class="signature">()</span>
         </h4>
     
         
         <div class="tag-source">
-            map/map-view.js, line 55
+            map/map-view.js, line 64
         </div>
         
     </div>
@@ -1232,6 +1249,81 @@
 </dt>
 <dd>
     
+    
+    <div class="description">
+        <p><a href="http://www.thunderforest.com/">http://www.thunderforest.com/</a></p>
+    </div>
+    
+
+    
+    
+    
+    
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="addOCMLandscape">
+            
+            addOCMLandscape<span class="signature">()</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            map/map-view.js, line 56
+        </div>
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        <p><a href="http://www.thunderforest.com/">http://www.thunderforest.com/</a></p>
+    </div>
     
 
     
@@ -1300,6 +1392,77 @@
 <dd>
     
     
+    <div class="description">
+        <p><a href="http://www.thunderforest.com/">http://www.thunderforest.com/</a></p>
+    </div>
+    
+
+    
+    
+    
+    
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="addOSM">
+            
+            addOSM<span class="signature">()</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            map/map-view.js, line 117
+        </div>
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
 
     
     
@@ -1357,7 +1520,7 @@
     
         
         <div class="tag-source">
-            map/map-view.js, line 76
+            map/map-view.js, line 110
         </div>
         
     </div>
@@ -1424,7 +1587,7 @@
     
         
         <div class="tag-source">
-            map/map-view.js, line 87
+            map/map-view.js, line 128
         </div>
         
     </div>
@@ -1491,7 +1654,7 @@
     
         
         <div class="tag-source">
-            map/map-view.js, line 115
+            map/map-view.js, line 156
         </div>
         
     </div>
@@ -1558,7 +1721,7 @@
     
         
         <div class="tag-source">
-            map/map-view.js, line 122
+            map/map-view.js, line 163
         </div>
         
     </div>
@@ -1618,14 +1781,14 @@
             
 <dt>
     <div class="nameContainer">
-        <h4 class="name" id="addWatercolor">
+        <h4 class="name" id="addTerrain">
             
-            addWatercolor<span class="signature">()</span>
+            addTerrain<span class="signature">()</span>
         </h4>
     
         
         <div class="tag-source">
-            map/map-view.js, line 62
+            map/map-view.js, line 80
         </div>
         
     </div>
@@ -1634,6 +1797,223 @@
 </dt>
 <dd>
     
+    
+    <div class="description">
+        <p><a href="http://maps.stamen.com/">http://maps.stamen.com/</a></p>
+    </div>
+    
+
+    
+    
+    
+    
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="addToner">
+            
+            addToner<span class="signature">()</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            map/map-view.js, line 88
+        </div>
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        <p><a href="http://maps.stamen.com/">http://maps.stamen.com/</a></p>
+    </div>
+    
+
+    
+    
+    
+    
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="addTonerBG">
+            
+            addTonerBG<span class="signature">()</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            map/map-view.js, line 96
+        </div>
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        <p><a href="http://maps.stamen.com/">http://maps.stamen.com/</a></p>
+    </div>
+    
+
+    
+    
+    
+    
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="addWatercolor">
+            
+            addWatercolor<span class="signature">()</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            map/map-view.js, line 72
+        </div>
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        <p><a href="http://maps.stamen.com/">http://maps.stamen.com/</a></p>
+    </div>
     
 
     
@@ -1698,7 +2078,7 @@
         
 
         <footer>
-            Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.2.2</a> on Fri Nov 28 2014 12:36:17 GMT+0100 (CET)
+            Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.2.2</a> on Tue Dec 02 2014 13:54:31 GMT+0100 (CET)
         </footer>
     </div>
 </div>
