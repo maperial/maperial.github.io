@@ -155,25 +155,33 @@ You have a many collections of tiles for your maps :
 
 #### Shaded Relief :
 
-`view.addShade()`
+{% highlight js %}
+view.addShade()
+{% endhighlight %}
 
 #### City lights at night :
 
-`view.addEarthLight()`
+{% highlight js %}
+view.addEarthLight()
+{% endhighlight %}
 
-<figure class="half">
-#### Aerosol :
+<div class="columns">
+<div class="left">
+<h4> Aerosol :</h4>
 
 {% highlight js %}
 view.addAerosol()
 {% endhighlight %}
+</div>
 
-#### Normalized Difference Vegetation Index :
+<div class="right">
+<h4> Normalized Difference Vegetation Index :</h4>
 
 {% highlight js %}
 view.addNDVI()
 {% endhighlight %}
-</figure>
+</div>
+</div>
 
 #### Shuttle Radar Topography Mission :
 
