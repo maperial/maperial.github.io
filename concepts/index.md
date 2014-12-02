@@ -46,7 +46,7 @@ the parent MapView.
 
 
 
-### Map
+## Map
 
 A Map is the parent of all other types of MapView.
 
@@ -71,7 +71,7 @@ Read more on the [documentation](/documentation/Maperial.html#createMap).
 
 
 
-### Anchor
+## Anchor
 An Anchor is the exact same thing as a [Map](#map), but instead of attaching it
 to a html container, you place it inside a [MapView](#mapviews).
 
@@ -89,7 +89,7 @@ var anchor = map.addAnchor(options);
 
 
 
-### Lens
+## Lens
 A Lens is a view to zoom in your map, centered on where the Lens is placed.
 A Lens allows to highlight an area using a greater zoom.
 
@@ -106,12 +106,13 @@ on the [documentation](/documentation/Maperial.html#addLens).
 <p data-height="450" data-theme-id="10317" data-slug-hash="EaVoVV" data-default-tab="result" data-user="chrisdugne" class='codepen'>See the Pen <a href='http://codepen.io/chrisdugne/pen/EaVoVV/'>Maperial : Lens</a> by Chris (<a href='http://codepen.io/chrisdugne'>@chrisdugne</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
+Drag the Lens over the Map to see details as you wish !
 
 
 
 
 
-### Minifier
+## Minifier
 A Minifier is a view to zoom out your map, with the same center.
 It allows to understand where is situated the area using a lower zoom.
 
@@ -122,13 +123,12 @@ var minifier = map.addMinifier(options);
 Use options to set it fixed or draggable, its size, position etc...
 
 - Requires a [theme](#theme)
-- Example : @todo jsbin + link
 - Read more on the [documentation](/documentation/Maperial.html#addMinifier).
 
 <p data-height="450" data-theme-id="10317" data-slug-hash="pvjpgB" data-default-tab="result" data-user="chrisdugne" class='codepen'>See the Pen <a href='http://codepen.io/chrisdugne/pen/pvjpgB/'>Maperial : Minifier</a> by Chris (<a href='http://codepen.io/chrisdugne'>@chrisdugne</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
-
+In this example you may drag the Minifier over the Map.
 
 
 # Layers
