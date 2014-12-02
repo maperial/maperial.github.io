@@ -193,75 +193,140 @@ view.addNDVI()
 <img class="right" src="/images/layers/aerosol.jpg" alt="">
 
 
-#### Shuttle Radar Topography Mission :
+<div class="half">
+<h4> Shuttle Radar Topography Mission :</h4>
 
 {% highlight js %}
 view.addSRTM()
 {% endhighlight %}
+</div>
+<img class="right" src="/images/layers/aerosol.jpg" alt="">
 
-#### Sea Surface Temperature :
+
+<div class="half">
+<h4> Sea Surface Temperature :</h4>
 
 {% highlight js %}
 view.addSST()
 {% endhighlight %}
+</div>
+<img class="right" src="/images/layers/aerosol.jpg" alt="">
 
-##### (@todo : maperialOSM)
+<h4> Soon : maperial OSM layers from maperial 1.0</h4>
+
+
 
 ## Open Street Map
+
+<div class="half">
+<h4> Classic OSM :</h4>
 
 {% highlight js %}
 view.addOSM()
 {% endhighlight %}
+</div>
+<img class="right" src="/images/layers/aerosol.jpg" alt="">
 
 
 ## Thunderforest
+
+<div class="half">
+<h4> Transport :</h4>
+
 {% highlight js %}
 view.addOCMTransport()
 {% endhighlight %}
+</div>
+<img class="right" src="/images/layers/aerosol.jpg" alt="">
+
+
+<div class="half">
+<h4> Landscape :</h4>
 
 {% highlight js %}
 view.addOCMLandscape()
 {% endhighlight %}
+</div>
+<img class="right" src="/images/layers/aerosol.jpg" alt="">
 
 
 Tiles © [Thunderforest](http://www.thunderforest.com/), Data © [OpenStreetMap contributors](http://www.openstreetmap.org/copyright)
 
 ## Stamen
 
+<div class="half">
+<h4> Watercolor :</h4>
+
 {% highlight js %}
 view.addWatercolor()
 {% endhighlight %}
+</div>
+<img class="right" src="/images/layers/aerosol.jpg" alt="">
+
+
+<div class="half">
+<h4> Terrain :</h4>
 
 {% highlight js %}
 view.addTerrain()
 {% endhighlight %}
+</div>
+<img class="right" src="/images/layers/aerosol.jpg" alt="">
+
+
+<div class="half">
+<h4> Toner :</h4>
 
 {% highlight js %}
 view.addToner()
 {% endhighlight %}
+</div>
+<img class="right" src="/images/layers/aerosol.jpg" alt="">
+
+
+<div class="half">
+<h4> Toner background :</h4>
 
 {% highlight js %}
 view.addTonerBG()
 {% endhighlight %}
+</div>
+<img class="right" src="/images/layers/aerosol.jpg" alt="">
 
 
 ## Mapquest
 
+<div class="half">
+<h4> Classic :</h4>
+
 {% highlight js %}
 view.addMapquest()
 {% endhighlight %}
+</div>
+<img class="right" src="/images/layers/aerosol.jpg" alt="">
+
+
+<div class="half">
+<h4> Satellite :</h4>
 
 {% highlight js %}
 view.addSatellite()
 {% endhighlight %}
+</div>
+<img class="right" src="/images/layers/aerosol.jpg" alt="">
+
 
 
 ## WMS
 
+<div class="half">
+<h4> Corine Land Cover :</h4>
+
 {% highlight js %}
 view.addCorineLandCover()
 {% endhighlight %}
-
+</div>
+<img class="right" src="/images/layers/aerosol.jpg" alt="">
 
 
 
