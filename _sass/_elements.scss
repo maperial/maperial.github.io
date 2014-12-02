@@ -60,11 +60,9 @@ svg:not(:root) {
 }
 
 // --- added by chris
-img {
-  &right {
-    width: 30%;
-    margin-left: 20%;
-  }
+.right {
+  width: 30%;
+  margin-left: 20%;
 }
 
 .half {

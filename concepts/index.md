@@ -160,7 +160,7 @@ You have a many collections of tiles for your maps :
 view.addShade()
 {% endhighlight %}
 </div>
-<img class="right" src="/images/layers/aerosol.jpg" alt=""></img>
+<img class="right" src="/images/layers/aerosol.jpg" alt="">
 
 
 <div class="half">
@@ -170,7 +170,7 @@ view.addShade()
 view.addEarthLight()
 {% endhighlight %}
 </div>
-<img class="right" src="/images/layers/aerosol.jpg" alt=""></img>
+<img class="right" src="/images/layers/aerosol.jpg" alt="">
 
 
 <div class="half">
@@ -180,7 +180,7 @@ view.addEarthLight()
 view.addAerosol()
 {% endhighlight %}
 </div>
-<img class="right" src="/images/layers/aerosol.jpg" alt=""></img>
+<img class="right" src="/images/layers/aerosol.jpg" alt="">
 
 
 <div class="half">
@@ -190,7 +190,7 @@ view.addAerosol()
 view.addNDVI()
 {% endhighlight %}
 </div>
-<img class="right" src="/images/layers/aerosol.jpg" alt=""></img>
+<img class="right" src="/images/layers/aerosol.jpg" alt="">
 
 
 #### Shuttle Radar Topography Mission :
