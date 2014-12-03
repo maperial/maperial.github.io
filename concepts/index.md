@@ -212,8 +212,11 @@ view.addSST()
 </div>
 <img class="right" src="/images/layers/sst.jpg" alt="">
 
-<h4> Soon : maperial OSM layers from maperial 1.0</h4>
 
+<div class="half">
+And soon more to come : vectorial layers using Data from
+[OpenStreetMap contributors](http://www.openstreetmap.org/copyright)
+</div>
 
 
 ## Open Street Map
