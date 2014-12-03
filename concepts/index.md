@@ -213,10 +213,8 @@ view.addSST()
 <img class="right" src="/images/layers/sst.jpg" alt="">
 
 
-<div class="half">
 And soon more to come : vectorial layers using Data from
 [OpenStreetMap contributors](http://www.openstreetmap.org/copyright)
-</div>
 
 
 ## Open Street Map
@@ -233,6 +231,8 @@ view.addOSM()
 
 ## Thunderforest
 
+Tiles © [Thunderforest](http://www.thunderforest.com/),
+Data © [OpenStreetMap contributors](http://www.openstreetmap.org/copyright)
 
 <div class="half">
 <h4> OpenCycleMap :</h4>
@@ -285,9 +285,10 @@ view.addTransportDark()
 <img class="right" src="/images/layers/transport-dark.jpg" alt="">
 
 
-Tiles © [Thunderforest](http://www.thunderforest.com/), Data © [OpenStreetMap contributors](http://www.openstreetmap.org/copyright)
-
 ## Stamen
+
+Tiles © [Thunderforest](http://www.thunderforest.com/),
+Data © [OpenStreetMap contributors](http://www.openstreetmap.org/copyright)
 
 <div class="half">
 <h4> Watercolor :</h4>
@@ -365,6 +366,7 @@ view.addCorineLandCover()
 <img class="right" src="/images/layers/corine-land-cover.jpg" alt="">
 
 
+Soon more WMS should be plugged in
 
 
 # Data Layers
@@ -388,7 +390,10 @@ allows to add/remove points with custom properties.
 
 - [HeatmapData](/documentation/HeatmapData.html)
 allows to draw heatmaps with custom colorbars.
-  ([Codepen example](http://codepen.io/chrisdugne/pen/Wbbggr?editors=101))
+
+<p data-height="450" data-theme-id="10317" data-slug-hash="Wbbggr" data-default-tab="result" data-user="chrisdugne" class='codepen'>See the Pen <a href='http://codepen.io/chrisdugne/pen/Wbbggr/'>Maperial : Heatmap animation</a> by Chris (<a href='http://codepen.io/chrisdugne'>@chrisdugne</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+
 
 #### Sharable
 You may create one Data and apply it on many [data layers](#data-layers).
@@ -459,8 +464,11 @@ maperial.addShadeControls({
 {% endhighlight %}
 
 - Requires a [theme](#theme) on your page
-- Example on [codepen](http://codepen.io/chrisdugne/pen/qEEYRp?editors=101)
 - Read more on the [documentation](/documentation/Maperial.html#addShadeControls)
+
+<p data-height="450" data-theme-id="10317" data-slug-hash="qEEYRp" data-default-tab="result" data-user="chrisdugne" class='codepen'>See the Pen <a href='http://codepen.io/chrisdugne/pen/qEEYRp/'>Maperial : Shade Controls</a> by Chris (<a href='http://codepen.io/chrisdugne'>@chrisdugne</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+
 
 
 #### Theme
