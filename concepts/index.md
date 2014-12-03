@@ -298,6 +298,7 @@ view.addWatercolor()
 
 <div class="half">
 <h4> Terrain :</h4>
+(Available in the USA only.)
 
 {% highlight js %}
 view.addTerrain()
