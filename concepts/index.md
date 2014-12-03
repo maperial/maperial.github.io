@@ -383,7 +383,7 @@ depending on the data type :
 
 # Data
 
-#### Types
+## Types
 - [DynamicalData](/documentation/DynamicalData.html)
 allows to add/remove points with custom properties.
   ([Codepen example](http://codepen.io/chrisdugne/pen/ZYYWbx?editors=101))
@@ -395,14 +395,14 @@ allows to draw heatmaps with custom colorbars.
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
 
-#### Sharable
+## Sharable
 You may create one Data and apply it on many [data layers](#data-layers).
 
 Then, adding one point on this Data would display the point on every layer.
 
 - @todo : Example sharing data on 2 maps : jsbin + link
 
-#### GeoJson
+## GeoJson
 Use <a href="http://geojson.org">GeoJson</a> to represent your Data.
 
 Check the different [types](#types) of data
@@ -425,7 +425,7 @@ Fusion Settings [tool](#fusion-settings)
 
 # Tools
 
-#### Simple Zoom
+## Simple Zoom
 You can add +/- buttons in a container, and attach this tool
 to a set of MapViews
 
@@ -440,19 +440,19 @@ maperial.addSimpleZoom(options)
 
 
 
-#### Slider Zoom
+## Slider Zoom
 @todo : (1-18 slider and +/- buttons)
   maperial.addSliderZoom(options)
 
 
 
-#### Fusion settings
+## Fusion settings
 @todo
 
 
 
 
-#### Shade controls
+## Shade controls
 Play with your [shade](#shade) dynamically by using 4 sliders modifying :
 - The light x,y and z
 - The shade scale.
@@ -471,8 +471,8 @@ maperial.addShadeControls({
 
 
 
-#### Theme
-Most of the tools require a default theme, provided by this css :
+## Theme
+Most of the tools require the default theme, provided by this css :
 {% highlight html %}
 <link href="http://static.maperial.com/css/maperial.css" rel="stylesheet" type="text/css" />
 {% endhighlight %}
