@@ -378,8 +378,7 @@ depending on the data type :
 - view.addDynamicalLayer(data, options);
 - view.addHeamapLayer(data, options);
 
-@todo : links to /doc
-
+[//]: # @todo : links to /doc
 
 # Data
 
@@ -400,7 +399,7 @@ You may create one Data and apply it on many [data layers](#data-layers).
 
 Then, adding one point on this Data would display the point on every layer.
 
-- @todo : Example sharing data on 2 maps : jsbin + link
+[//]: # @todo : Example sharing data on 2 maps : jsbin + link
 
 ## GeoJson
 Use <a href="http://geojson.org">GeoJson</a> to represent your Data.
@@ -412,7 +411,7 @@ to set your Feature Collections accordingly.
 
 # Fusion
 Use custom settings to fuse 2 layers
-@todo settings panel + doc
+[//]: # @todo settings panel + doc
 
 - AlphaBlend (param float [0,1])
 - AlphaClip  (param float [0,1])
@@ -434,20 +433,18 @@ maperial.addSimpleZoom(options)
 {% endhighlight %}
 
 - Requires a [theme](#theme) on your page
-- @todo : Example on [codepen](http://codepen.io/chrisdugne)
 - Read more on the [documentation](/documentation/Maperial.html#addSimpleZoom).
 
+[//]: # @todo : Example on [codepen](http://codepen.io/chrisdugne)
 
 
 
 ## Slider Zoom
-@todo : (1-18 slider and +/- buttons)
-  maperial.addSliderZoom(options)
-
+[//]: # @todo : (1-18 slider and +/- buttons) maperial.addSliderZoom(options)
 
 
 ## Fusion settings
-@todo
+[//]: # @todo
 
 
 
