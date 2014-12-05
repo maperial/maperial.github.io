@@ -452,6 +452,7 @@ maperial.addSimpleZoom(options)
 
 ## Shade controls
 Play with your [shade](#shade) dynamically by using 4 sliders modifying :
+
 - The light x,y and z
 - The shade scale.
 
