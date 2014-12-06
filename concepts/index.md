@@ -430,7 +430,7 @@ You can add +/- buttons in a container, and attach this tool
 to a set of MapViews
 
 {% highlight js %}
-maperial.addSimpleZoom(options)
+maperial.addSimpleZoom(options);
 {% endhighlight %}
 
 - Requires a [theme](#theme) on your page
