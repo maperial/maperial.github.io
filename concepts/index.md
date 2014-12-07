@@ -8,7 +8,8 @@ title: Concepts
 You'll find here how to use Maperial to create maps and layers,
 how to manipulate your data and how to add tools to your maps.
 
-You may want to check some [examples](http://codepen.io/chrisdugne/) before anything.
+You may want to check some [examples](http://codepen.io/chrisdugne/)
+before anything.
 
 Once you're ready to go further, explore the complete
 API [documentation](/documentation).
@@ -142,7 +143,8 @@ and draw unique maps.
 
 # Image Layers
 
-We provide our own unhackneyed tiles but you may use an evergrowing collection of external tiles.
+We provide our own unhackneyed tiles but you may use an evergrowing collection
+of external tiles.
 
 - [Maperial Tiles](#maperial-tiles)
 - Tiles from [Open Street Map](#open-street-map)
