@@ -109,6 +109,20 @@
             </ul>
             <ul class="methods itemMembers">
             
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="HeatmapData#addPoint"><a href="HeatmapData.html#addPoint">addPoint</a></li>
+            
+                <li data-name="HeatmapData#addPoints"><a href="HeatmapData.html#addPoints">addPoints</a></li>
+            
+                <li data-name="HeatmapData#animate"><a href="HeatmapData.html#animate">animate</a></li>
+            
+                <li data-name="HeatmapData#removeAll"><a href="HeatmapData.html#removeAll">removeAll</a></li>
+            
+                <li data-name="HeatmapData#removePoint"><a href="HeatmapData.html#removePoint">removePoint</a></li>
+            
+                <li data-name="HeatmapData#reset"><a href="HeatmapData.html#reset">reset</a></li>
+            
             </ul>
             <ul class="events itemMembers">
             
@@ -190,6 +204,8 @@
             
                 <li data-name="MapView#addEarthLight"><a href="MapView.html#addEarthLight">addEarthLight</a></li>
             
+                <li data-name="MapView#addLandscape"><a href="MapView.html#addLandscape">addLandscape</a></li>
+            
                 <li data-name="MapView#addLens"><a href="MapView.html#addLens">addLens</a></li>
             
                 <li data-name="MapView#addMapquest"><a href="MapView.html#addMapquest">addMapquest</a></li>
@@ -198,13 +214,11 @@
             
                 <li data-name="MapView#addNDVI"><a href="MapView.html#addNDVI">addNDVI</a></li>
             
-                <li data-name="MapView#addOCMCycle"><a href="MapView.html#addOCMCycle">addOCMCycle</a></li>
-            
-                <li data-name="MapView#addOCMLandscape"><a href="MapView.html#addOCMLandscape">addOCMLandscape</a></li>
-            
-                <li data-name="MapView#addOCMTransport"><a href="MapView.html#addOCMTransport">addOCMTransport</a></li>
+                <li data-name="MapView#addOCM"><a href="MapView.html#addOCM">addOCM</a></li>
             
                 <li data-name="MapView#addOSM"><a href="MapView.html#addOSM">addOSM</a></li>
+            
+                <li data-name="MapView#addOutdoors"><a href="MapView.html#addOutdoors">addOutdoors</a></li>
             
                 <li data-name="MapView#addSatellite"><a href="MapView.html#addSatellite">addSatellite</a></li>
             
@@ -219,6 +233,10 @@
                 <li data-name="MapView#addToner"><a href="MapView.html#addToner">addToner</a></li>
             
                 <li data-name="MapView#addTonerBG"><a href="MapView.html#addTonerBG">addTonerBG</a></li>
+            
+                <li data-name="MapView#addTransport"><a href="MapView.html#addTransport">addTransport</a></li>
+            
+                <li data-name="MapView#addTransportDark"><a href="MapView.html#addTransportDark">addTransportDark</a></li>
             
                 <li data-name="MapView#addWatercolor"><a href="MapView.html#addWatercolor">addWatercolor</a></li>
             
@@ -396,7 +414,7 @@
     
         
         <div class="tag-source">
-            map/map-view.js, line 142
+            map/map-view.js, line 158
         </div>
         
     </div>
@@ -463,7 +481,7 @@
     
         
         <div class="tag-source">
-            map/map-view.js, line 196
+            map/map-view.js, line 212
         </div>
         
     </div>
@@ -693,7 +711,7 @@
     
         
         <div class="tag-source">
-            map/map-view.js, line 175
+            map/map-view.js, line 191
         </div>
         
     </div>
@@ -764,7 +782,7 @@
     
         
         <div class="tag-source">
-            map/map-view.js, line 135
+            map/map-view.js, line 151
         </div>
         
     </div>
@@ -824,6 +842,77 @@
             
 <dt>
     <div class="nameContainer">
+        <h4 class="name" id="addLandscape">
+            
+            addLandscape<span class="signature">()</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            map/map-view.js, line 56
+        </div>
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        <p><a href="http://www.thunderforest.com/">http://www.thunderforest.com/</a></p>
+    </div>
+    
+
+    
+    
+    
+    
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
         <h4 class="name" id="addLens">
             
             addLens<span class="signature">(options)</span>
@@ -831,7 +920,7 @@
     
         
         <div class="tag-source">
-            map/map-view.js, line 234
+            map/map-view.js, line 250
         </div>
         
     </div>
@@ -1068,7 +1157,7 @@
     
         
         <div class="tag-source">
-            map/map-view.js, line 103
+            map/map-view.js, line 119
         </div>
         
     </div>
@@ -1135,7 +1224,7 @@
     
         
         <div class="tag-source">
-            map/map-view.js, line 277
+            map/map-view.js, line 293
         </div>
         
     </div>
@@ -1372,7 +1461,7 @@
     
         
         <div class="tag-source">
-            map/map-view.js, line 149
+            map/map-view.js, line 165
         </div>
         
     </div>
@@ -1432,156 +1521,14 @@
             
 <dt>
     <div class="nameContainer">
-        <h4 class="name" id="addOCMCycle">
+        <h4 class="name" id="addOCM">
             
-            addOCMCycle<span class="signature">()</span>
+            addOCM<span class="signature">()</span>
         </h4>
     
         
         <div class="tag-source">
             map/map-view.js, line 64
-        </div>
-        
-    </div>
-
-    
-</dt>
-<dd>
-    
-    
-    <div class="description">
-        <p><a href="http://www.thunderforest.com/">http://www.thunderforest.com/</a></p>
-    </div>
-    
-
-    
-    
-    
-    
-    
-    
-    
-<dl class="details">
-    
-        
-    
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-</dl>
-
-    
-    
-
-    
-
-    
-    
-    
-    
-    
-    
-    
-</dd>
-
-        
-            
-<dt>
-    <div class="nameContainer">
-        <h4 class="name" id="addOCMLandscape">
-            
-            addOCMLandscape<span class="signature">()</span>
-        </h4>
-    
-        
-        <div class="tag-source">
-            map/map-view.js, line 56
-        </div>
-        
-    </div>
-
-    
-</dt>
-<dd>
-    
-    
-    <div class="description">
-        <p><a href="http://www.thunderforest.com/">http://www.thunderforest.com/</a></p>
-    </div>
-    
-
-    
-    
-    
-    
-    
-    
-    
-<dl class="details">
-    
-        
-    
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-</dl>
-
-    
-    
-
-    
-
-    
-    
-    
-    
-    
-    
-    
-</dd>
-
-        
-            
-<dt>
-    <div class="nameContainer">
-        <h4 class="name" id="addOCMTransport">
-            
-            addOCMTransport<span class="signature">()</span>
-        </h4>
-    
-        
-        <div class="tag-source">
-            map/map-view.js, line 48
         </div>
         
     </div>
@@ -1652,7 +1599,7 @@
     
         
         <div class="tag-source">
-            map/map-view.js, line 117
+            map/map-view.js, line 133
         </div>
         
     </div>
@@ -1712,6 +1659,77 @@
             
 <dt>
     <div class="nameContainer">
+        <h4 class="name" id="addOutdoors">
+            
+            addOutdoors<span class="signature">()</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            map/map-view.js, line 80
+        </div>
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        <p><a href="http://www.thunderforest.com/">http://www.thunderforest.com/</a></p>
+    </div>
+    
+
+    
+    
+    
+    
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
         <h4 class="name" id="addSatellite">
             
             addSatellite<span class="signature">()</span>
@@ -1719,7 +1737,7 @@
     
         
         <div class="tag-source">
-            map/map-view.js, line 110
+            map/map-view.js, line 126
         </div>
         
     </div>
@@ -1786,7 +1804,7 @@
     
         
         <div class="tag-source">
-            map/map-view.js, line 128
+            map/map-view.js, line 144
         </div>
         
     </div>
@@ -1853,7 +1871,7 @@
     
         
         <div class="tag-source">
-            map/map-view.js, line 156
+            map/map-view.js, line 172
         </div>
         
     </div>
@@ -1920,7 +1938,7 @@
     
         
         <div class="tag-source">
-            map/map-view.js, line 163
+            map/map-view.js, line 179
         </div>
         
     </div>
@@ -1987,7 +2005,7 @@
     
         
         <div class="tag-source">
-            map/map-view.js, line 80
+            map/map-view.js, line 96
         </div>
         
     </div>
@@ -2058,7 +2076,7 @@
     
         
         <div class="tag-source">
-            map/map-view.js, line 88
+            map/map-view.js, line 104
         </div>
         
     </div>
@@ -2129,7 +2147,7 @@
     
         
         <div class="tag-source">
-            map/map-view.js, line 96
+            map/map-view.js, line 112
         </div>
         
     </div>
@@ -2193,6 +2211,148 @@
             
 <dt>
     <div class="nameContainer">
+        <h4 class="name" id="addTransport">
+            
+            addTransport<span class="signature">()</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            map/map-view.js, line 48
+        </div>
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        <p><a href="http://www.thunderforest.com/">http://www.thunderforest.com/</a></p>
+    </div>
+    
+
+    
+    
+    
+    
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="addTransportDark">
+            
+            addTransportDark<span class="signature">()</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            map/map-view.js, line 72
+        </div>
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        <p><a href="http://www.thunderforest.com/">http://www.thunderforest.com/</a></p>
+    </div>
+    
+
+    
+    
+    
+    
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
         <h4 class="name" id="addWatercolor">
             
             addWatercolor<span class="signature">()</span>
@@ -2200,7 +2360,7 @@
     
         
         <div class="tag-source">
-            map/map-view.js, line 72
+            map/map-view.js, line 88
         </div>
         
     </div>
@@ -2277,7 +2437,7 @@
         
 
         <footer>
-            Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.2.2</a> on Tue Dec 02 2014 16:25:27 GMT+0100 (CET)
+            Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.2.2</a> on Tue Jan 06 2015 15:41:07 GMT+0100 (CET)
         </footer>
     </div>
 </div>

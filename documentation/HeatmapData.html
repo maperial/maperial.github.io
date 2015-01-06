@@ -109,6 +109,20 @@
             </ul>
             <ul class="methods itemMembers">
             
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="HeatmapData#addPoint"><a href="HeatmapData.html#addPoint">addPoint</a></li>
+            
+                <li data-name="HeatmapData#addPoints"><a href="HeatmapData.html#addPoints">addPoints</a></li>
+            
+                <li data-name="HeatmapData#animate"><a href="HeatmapData.html#animate">animate</a></li>
+            
+                <li data-name="HeatmapData#removeAll"><a href="HeatmapData.html#removeAll">removeAll</a></li>
+            
+                <li data-name="HeatmapData#removePoint"><a href="HeatmapData.html#removePoint">removePoint</a></li>
+            
+                <li data-name="HeatmapData#reset"><a href="HeatmapData.html#reset">reset</a></li>
+            
             </ul>
             <ul class="events itemMembers">
             
@@ -190,6 +204,8 @@
             
                 <li data-name="MapView#addEarthLight"><a href="MapView.html#addEarthLight">addEarthLight</a></li>
             
+                <li data-name="MapView#addLandscape"><a href="MapView.html#addLandscape">addLandscape</a></li>
+            
                 <li data-name="MapView#addLens"><a href="MapView.html#addLens">addLens</a></li>
             
                 <li data-name="MapView#addMapquest"><a href="MapView.html#addMapquest">addMapquest</a></li>
@@ -198,13 +214,11 @@
             
                 <li data-name="MapView#addNDVI"><a href="MapView.html#addNDVI">addNDVI</a></li>
             
-                <li data-name="MapView#addOCMCycle"><a href="MapView.html#addOCMCycle">addOCMCycle</a></li>
-            
-                <li data-name="MapView#addOCMLandscape"><a href="MapView.html#addOCMLandscape">addOCMLandscape</a></li>
-            
-                <li data-name="MapView#addOCMTransport"><a href="MapView.html#addOCMTransport">addOCMTransport</a></li>
+                <li data-name="MapView#addOCM"><a href="MapView.html#addOCM">addOCM</a></li>
             
                 <li data-name="MapView#addOSM"><a href="MapView.html#addOSM">addOSM</a></li>
+            
+                <li data-name="MapView#addOutdoors"><a href="MapView.html#addOutdoors">addOutdoors</a></li>
             
                 <li data-name="MapView#addSatellite"><a href="MapView.html#addSatellite">addSatellite</a></li>
             
@@ -219,6 +233,10 @@
                 <li data-name="MapView#addToner"><a href="MapView.html#addToner">addToner</a></li>
             
                 <li data-name="MapView#addTonerBG"><a href="MapView.html#addTonerBG">addTonerBG</a></li>
+            
+                <li data-name="MapView#addTransport"><a href="MapView.html#addTransport">addTransport</a></li>
+            
+                <li data-name="MapView#addTransportDark"><a href="MapView.html#addTransportDark">addTransportDark</a></li>
             
                 <li data-name="MapView#addWatercolor"><a href="MapView.html#addWatercolor">addWatercolor</a></li>
             
@@ -296,12 +314,12 @@
     <div class="nameContainer">
         <h4 class="name" id="HeatmapData">
             
-            new HeatmapData<span class="signature">()</span>
+            new HeatmapData<span class="signature">(featureCollection)</span>
         </h4>
     
         
         <div class="tag-source">
-            models/data/heatmap-data.js, line 16
+            models/data/heatmap-data.js, line 83
         </div>
         
     </div>
@@ -312,8 +330,463 @@
     
     
     <div class="description">
-        <p>A HeatmapData may be shared between many MapView.</p>
-<p>Create a HeatmapData using the <a href="Maperial.html#createHeatmapData">Maperial</a></p>
+        <p>To gather heat points on your maps, use HeatmapData.</p>
+<p>One HeatmapData may be shared between many <a href="MapView.html">MapView</a>.</p>
+<p>Create a HeatmapData using <a href="Maperial.html#createHeatmapData">Maperial#createHeatmapData</a></p>
+<p>You may directly import a FeatureCollection either by a url or an object.</p>
+<p>Each 'feature' in your FeatureCollection should be formatted as Point, with a scale and a diameter as properties :</p>
+<pre>
+{
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      4.792116752641117,
+      53.05105507065753
+    ]
+  },
+  "type": "Feature",
+  "properties": {
+      "diameter": 10000,
+      "scale": 0.6
+  }
+}
+</pre>
+    </div>
+    
+
+    
+    
+    
+    
+    
+        
+
+<table class="params">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+		
+		<th>Type</th>
+		
+		
+		
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	
+        <tr>
+            
+                <td class="name"><code>featureCollection</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">object</span>
+|
+
+<span class="param-type">string</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                <p><a href="http://geojson.org">GeoJson</a>
+                       FeatureCollection</p></td>
+        </tr>
+	
+	
+	</tbody>
+</table>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+        <h5>Examples</h5>
+        
+        <p class="code-caption">Use a REST endpoint to import a FeatureCollection</p>
+    
+
+    
+    <pre class="prettyprint"><code>var url = 'http://static.maperial.com/geojson/heatmap.geojson.json';
+var data = maperial.createHeatmapData(url);</code></pre>
+    
+
+        <p class="code-caption">Or use your js built FeatureCollection</p>
+    
+
+    
+    <pre class="prettyprint"><code>var collection = {
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.792116752641117,
+          53.05105507065753
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+          "diameter": 9000,
+          "scale": 0.54
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.792800810802329,
+          53.05119775566745
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+          "diameter": 10000,
+          "scale": 0.67
+      }
+    }
+  ]
+}
+
+var data = maperial.createHeatmapData(collection);</code></pre>
+    
+
+    
+</dd>
+
+    
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        <h3 class="subsection-title">Methods</h3>
+        
+        <dl>
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="addPoint">
+            
+            addPoint<span class="signature">()</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            models/data/heatmap-data.js, line 136
+        </div>
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="addPoints">
+            
+            addPoints<span class="signature">()</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            models/data/heatmap-data.js, line 125
+        </div>
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="animate">
+            
+            animate<span class="signature">(data)</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            models/data/heatmap-data.js, line 229
+        </div>
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+
+    
+    
+    
+    
+    
+        
+
+<table class="params">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+		
+		<th>Type</th>
+		
+		
+		
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	
+        <tr>
+            
+                <td class="name"><code>data</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">Array</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                <p>An array of FeatureCollections. The animation will load one FeatureCollection after the other to animate your Array over time.</p></td>
+        </tr>
+	
+	
+	</tbody>
+</table>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="removeAll">
+            
+            removeAll<span class="signature">()</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            models/data/heatmap-data.js, line 203
+        </div>
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        <p>alias for #reset</p>
     </div>
     
 
@@ -360,18 +833,111 @@
     
     
     
-        <h5>Example</h5>
+</dd>
+
         
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="removePoint">
+            
+            removePoint<span class="signature">()</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            models/data/heatmap-data.js, line 210
+        </div>
+        
+    </div>
 
     
-    <pre class="prettyprint"><code> on [codepen](http://codepen.io/chrisdugne/pen/Wbbggr?editors=101)</code></pre>
+</dt>
+<dd>
+    
     
 
+    
+    
+    
+    
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
     
 </dd>
 
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="reset">
+            
+            reset<span class="signature">()</span>
+        </h4>
     
+        
+        <div class="tag-source">
+            models/data/heatmap-data.js, line 189
+        </div>
+        
     </div>
+
+    
+</dt>
+<dd>
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
     
     
     
@@ -385,6 +951,25 @@
     
     
     
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+</dd>
+
+        </dl>
     
     
     
@@ -401,7 +986,7 @@
         
 
         <footer>
-            Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.2.2</a> on Tue Dec 02 2014 16:25:27 GMT+0100 (CET)
+            Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.2.2</a> on Tue Jan 06 2015 15:41:07 GMT+0100 (CET)
         </footer>
     </div>
 </div>
